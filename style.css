@@ -297,12 +297,12 @@ footer {
 
 
 .project-links a {
-  color: #93c5fd;
+  color: #bfb2ed;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .project-links a:hover {
-  color: #bfdbfe;
+  color: #cfc9e9;
   transform: translateY(-2px);
 }
 
