@@ -289,8 +289,10 @@ footer {
 .project-links {
   margin-top: 1.5rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
+  justify-content: center; 
 }
+
 
 .project-links a {
   text-decoration: none;
