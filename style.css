@@ -272,12 +272,14 @@ footer {
   line-height: 1.6;
 }
 
-.tech-stack {
-  margin-top: 1rem;
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+.tech-stack span {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
 }
+
+
 
 .tech-stack span {
   font-size: 0.85rem;
@@ -295,8 +297,13 @@ footer {
 
 
 .project-links a {
-  text-decoration: none;
-  font-weight: 500;
+  color: #93c5fd;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.project-links a:hover {
+  color: #bfdbfe;
+  transform: translateY(-2px);
 }
 
 
