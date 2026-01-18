@@ -1,3 +1,11 @@
+:root {
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* {
+  transition-timing-function: var(--ease-out);
+}
+
 * {
   margin: 0;
   padding: 0;
